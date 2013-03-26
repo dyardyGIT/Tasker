@@ -1,7 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tasker", ".", "{81130E8B-B91D-4940-8FE8-FFA237B5FE0B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Tasker"
+		Debug.AspNetCompiler.PhysicalPath = "..\Tasker\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Tasker\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Tasker"
+		Release.AspNetCompiler.PhysicalPath = "..\Tasker\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Tasker\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "46224"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81130E8B-B91D-4940-8FE8-FFA237B5FE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81130E8B-B91D-4940-8FE8-FFA237B5FE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
